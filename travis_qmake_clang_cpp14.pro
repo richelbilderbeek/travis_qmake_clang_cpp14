@@ -1,10 +1,10 @@
 SOURCES += main.cpp
 
-equals(QMAKE_CXX, g++) {
+equals(CXX, g++) {
   message(Using g++)
   error(Should not use g++)
 }
-equals(QMAKE_CXX, clang++) {
+equals(CXX, clang++) {
   message(Using clang++)
 }
 
