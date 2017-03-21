@@ -6,4 +6,6 @@ install:
   - sudo apt-get install clang
 
 script: 
-  - ./build.sh
+  - qmake
+  - make
+  - ./travis_qmake_clang_cpp14
