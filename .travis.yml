@@ -13,7 +13,8 @@ install:
   - sudo apt-get install libc++-dev
 
 script: 
-  - qmake -makefile QMAKE_CXX=$CXX QMAKE_CC=$CC QMAKE_LINK=$CXX QMAKE_CXXFLAGS+=-stdlib=libc++ travis_qmake_clang_cpp14.pro
+  - qmake -makefile QMAKE_CXX=$CXX QMAKE_CC=$CC QMAKE_LINK=$CXX travis_qmake_clang_cpp14.pro
+  #- qmake -makefile QMAKE_CXX=$CXX QMAKE_CC=$CC QMAKE_LINK=$CXX QMAKE_CXXFLAGS+=-stdlib=libc++ travis_qmake_clang_cpp14.pro
   #- qmake -makefile QMAKE_CXX=$CXX QMAKE_CC=$CC QMAKE_LINK=clang++ QMAKE_CXXFLAGS+=-stdlib=libc++ travis_qmake_clang_cpp14.pro
   #- qmake -makefile QMAKE_CXX=$CXX QMAKE_CC=$CC QMAKE_CXXFLAGS+=-stdlib=libc++ travis_qmake_clang_cpp14.pro
   #- qmake -makefile QMAKE_CXX=$CXX QMAKE_CC=$CC QMAKE_CXXFLAGS+=-stdlib=libc++ LIBS+=-llibc++ travis_qmake_clang_cpp14.pro
