@@ -3,7 +3,7 @@ language: cpp
 compiler: clang
 dist: trusty
 
-#install:
+install:
   - sudo apt-get install libc++-dev
 
 script: 
