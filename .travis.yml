@@ -1,8 +1,12 @@
+sudo: require
 language: cpp
 compiler: clang
 dist: trusty
 
+install:
+  - sudo apt-get install libc++
+
 script: 
-  - qmake -makefile QMAKE_CXX=$CXX QMAKE_CC=$CC travis_qmake_clang_cpp14.pro
+  - qmake -makefile QMAKE_CXX=$CXX QMAKE_CC=$CC -stdlib=libc++ travis_qmake_clang_cpp14.pro
   - make
   - ./travis_qmake_clang_cpp14
