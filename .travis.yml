@@ -1,9 +1,5 @@
 language: cpp
-compiler: gcc
-sudo: true
-
-install:
-  - sudo apt-get install clang
+compiler: clang
 
 script: 
   - qmake
