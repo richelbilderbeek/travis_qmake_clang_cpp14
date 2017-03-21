@@ -3,8 +3,8 @@ language: cpp
 compiler: clang
 dist: trusty
 
-install:
-  - sudo apt-get install libc++
+#install:
+#  - sudo apt-get install libc++
 
 script: 
   - qmake -makefile QMAKE_CXX=$CXX QMAKE_CC=$CC -stdlib=libc++ travis_qmake_clang_cpp14.pro
