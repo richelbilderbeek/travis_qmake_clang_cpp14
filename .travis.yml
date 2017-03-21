@@ -7,6 +7,6 @@ dist: trusty
 #  - sudo apt-get install libc++
 
 script: 
-  - qmake -makefile QMAKE_CXX=$CXX QMAKE_CC=$CC QMAKE_CXXFLAGS+=-stdlib=libc++ travis_qmake_clang_cpp14.pro
+  - qmake -makefile QMAKE_CXX=$CXX QMAKE_CC=$CC QMAKE_CXXFLAGS+=-stdlib=libc++ QMAKE_LIBS+=-lstdlibc++ travis_qmake_clang_cpp14.pro
   - make
   - ./travis_qmake_clang_cpp14
