@@ -3,6 +3,6 @@ compiler: clang
 dist: trusty
 
 script: 
-  - qmake
+  - qmake -makefile QMAKE_CXX=clang++ travis_qmake_clang_cpp14.pro
   - make
   - ./travis_qmake_clang_cpp14
