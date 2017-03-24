@@ -1,9 +1,9 @@
 # travis_qmake_clang_cpp14
 
-Branch|[![Travis CI logo](TravisCI.png)](https://travis-ci.org)|[![Codecov logo](Codecov.png)](https://www.codecov.io)
+Branch|[![Travis CI logo](TravisCI.png)](https://travis-ci.org)
 ---|---|---
-master|[![Build Status](https://travis-ci.org/richelbilderbeek/travis_qmake_clang_cpp14.svg?branch=master)](https://travis-ci.org/richelbilderbeek/travis_qmake_clang_cpp14)|[![codecov.io](https://codecov.io/github/richelbilderbeek/travis_qmake_clang_cpp14/coverage.svg?branch=master)](https://codecov.io/github/richelbilderbeek/travis_qmake_clang_cpp14/branch/master)
-develop|[![Build Status](https://travis-ci.org/richelbilderbeek/travis_qmake_clang_cpp14.svg?branch=develop)](https://travis-ci.org/richelbilderbeek/travis_qmake_clang_cpp14)|[![codecov.io](https://codecov.io/github/richelbilderbeek/travis_qmake_clang_cpp14/coverage.svg?branch=develop)](https://codecov.io/github/richelbilderbeek/travis_qmake_clang_cpp14/branch/develop)
+master|[![Build Status](https://travis-ci.org/richelbilderbeek/travis_qmake_clang_cpp14.svg?branch=master)](https://travis-ci.org/richelbilderbeek/travis_qmake_clang_cpp14)
+develop|[![Build Status](https://travis-ci.org/richelbilderbeek/travis_qmake_clang_cpp14.svg?branch=develop)](https://travis-ci.org/richelbilderbeek/travis_qmake_clang_cpp14)
 
 This GitHub is part of [the Travis C++ Tutorial](https://github.com/richelbilderbeek/travis_cpp_tutorial).
 
@@ -14,6 +14,13 @@ The goal of this project is to have a clean Travis CI build, with specs:
  * Libraries: `STL` only
  * Code coverage: none
  * Source: one single file, `main.cpp`
+
+More complex builds:
+ * Add GCC: [travis_qmake_clang_gcc_cpp14](https://www.github.com/richelbilderbeek/travis_qmake_clang_gcc_cpp14)
+
+Equally complex builds:
+ * Replace clang by GCC: [travis_qmake_gcc_cpp14](https://www.github.com/richelbilderbeek/travis_qmake_gcc_cpp14)
+
 
 Less complex builds:
  * Use of C++98: [travis_qmake_clang_cpp98](https://www.github.com/richelbilderbeek/travis_qmake_clang_cpp98)
