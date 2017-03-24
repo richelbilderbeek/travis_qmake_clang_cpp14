@@ -20,3 +20,8 @@ matrix:
           packages:
             - clang-3.8
           sources: *sources
+
+script:
+  - qmake
+  - make
+  - ./travis_qmake_clang_cpp14
