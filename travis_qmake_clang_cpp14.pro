@@ -1,11 +1,12 @@
-TEMPLATE = app
-CONFIG += console
-CONFIG -= app_bundle qt
+# Files
 SOURCES += main.cpp
+
+# High warning levels, a warning is an error
 QMAKE_CXXFLAGS += -Wall -Wextra -Weffc++ -Werror
 
-# clang
+# C++14
 QMAKE_CXX = clang++
 QMAKE_LINK = clang++
 QMAKE_CC = clang
-QMAKE_CXXFLAGS += -std=c++14
+QMAKE_CXXFLAGS += -std=c++14 -stdlib=libc++
+
