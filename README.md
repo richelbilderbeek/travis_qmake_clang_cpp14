@@ -33,7 +33,7 @@ Less complex builds:
 
 ## Troubleshooting
 
-### `undefined reference to `std::__1::cout'`
+### `undefined reference to 'std::__1::cout'`
 
 Cause:
 
