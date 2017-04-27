@@ -17,3 +17,4 @@ The goal of this project is to have a clean Travis CI build, with specs:
 Less complex builds:
  * Use of C++98: [travis_qmake_clang_cpp98](https://www.github.com/richelbilderbeek/travis_qmake_clang_cpp98)
  * Use of C++11: [travis_qmake_clang_cpp11](https://www.github.com/richelbilderbeek/travis_qmake_clang_cpp11)
+ * No `qmake`: [travis_clang_cpp14](https://www.github.com/richelbilderbeek/travis_clang_cpp14)
