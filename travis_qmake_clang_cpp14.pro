@@ -5,10 +5,13 @@ SOURCES += main.cpp
 QMAKE_CXXFLAGS += -Wall -Wextra -Weffc++ -Werror
 
 # C++14
-QMAKE_CXX = clang++
-QMAKE_LINK = clang++
-QMAKE_CC = clang
-QMAKE_CXXFLAGS += -std=c++14 -stdlib=libc++
-QMAKE_LFLAGS += -stdlib=libc++
+CONFIG += c++14
+QMAKE_CXXFLAGS += -std=c++14
+
+#QMAKE_CXX = clang++
+#QMAKE_LINK = clang++
+#QMAKE_CC = clang
+#QMAKE_CXXFLAGS += -std=c++14 -stdlib=libc++
+#QMAKE_LFLAGS += -stdlib=libc++
 
 
