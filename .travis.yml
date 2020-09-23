@@ -16,6 +16,6 @@ compiler: clang
   #- sudo apt-get install -y libc++-dev libc++abi-dev
 
 script:
-  - qmake
+  - qmake -c $(CXX)
   - make
   - ./travis_qmake_clang_cpp14
