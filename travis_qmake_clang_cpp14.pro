@@ -10,7 +10,8 @@ QMAKE_CXXFLAGS += -std=c++14
 
 # Use correct compiler, as set by Travis
 QMAKE_CXX = $$(CXX)
-QMAKE_CX = $$(CX)
+QMAKE_CC = $$(CC)
+QMAKE_LINK = $$(CXX)
 
 #QMAKE_LINK = clang++
 #QMAKE_CC = clang
