@@ -8,7 +8,10 @@ QMAKE_CXXFLAGS += -Wall -Wextra -Weffc++ -Werror
 CONFIG += c++14
 QMAKE_CXXFLAGS += -std=c++14
 
-#QMAKE_CXX = clang++
+# Use correct compiler, as set by Travis
+QMAKE_CXX = $$(CXX)
+QMAKE_CX = $$(CX)
+
 #QMAKE_LINK = clang++
 #QMAKE_CC = clang
 #QMAKE_CXXFLAGS += -std=c++14 -stdlib=libc++
