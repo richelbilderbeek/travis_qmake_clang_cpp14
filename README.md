@@ -1,9 +1,9 @@
 # travis_qmake_clang_cpp14
 
-Branch|[![Travis CI logo](TravisCI.png)](https://travis-ci.org)
+Branch|[![Travis CI logo](TravisCI.png)](https://travis-ci.com)
 ---|---
-master|[![Build Status](https://travis-ci.org/richelbilderbeek/travis_qmake_clang_cpp14.svg?branch=master)](https://travis-ci.org/richelbilderbeek/travis_qmake_clang_cpp14)
-develop|[![Build Status](https://travis-ci.org/richelbilderbeek/travis_qmake_clang_cpp14.svg?branch=develop)](https://travis-ci.org/richelbilderbeek/travis_qmake_clang_cpp14)
+master|[![Build Status](https://travis-ci.com/richelbilderbeek/travis_qmake_clang_cpp14.svg?branch=master)](https://travis-ci.com/richelbilderbeek/travis_qmake_clang_cpp14)
+develop|[![Build Status](https://travis-ci.com/richelbilderbeek/travis_qmake_clang_cpp14.svg?branch=develop)](https://travis-ci.com/richelbilderbeek/travis_qmake_clang_cpp14)
 
 This GitHub is part of [the Travis C++ Tutorial](https://github.com/richelbilderbeek/travis_cpp_tutorial).
 
